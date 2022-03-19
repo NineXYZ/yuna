@@ -32,4 +32,4 @@ jobs:
       if: startsWith(matrix.os, 'macos')
       with:
         name: Yuna.dmg
-        path: dist_electron/Yuna?.dmg
+        path: dist_electron/Yuna-?.dmg
